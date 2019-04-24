@@ -1,0 +1,59 @@
+Part - 13 Comparing 3 numbers
+
+//INPUT
+
+VAR X = 10
+VAR Y = 15
+VAR Z = 8
+SUM;
+_____________________________________________________________________
+//PROCESS
+
+X     Y     Z
+10    15    8  -> ( 8 SWAP WITH 15 )
+10     8    15 -> ( 8 SWAP WITH 10 )
+ 8    10    15 -> ( THE CORRECT SEQUENCE )
+
+ SUM = Z + X + Y = 33 
+_____________________________________________________________________
+ //OUTPUT 
+
+ PRINT SUM
+_____________________________________________________________________
+//EXEMPLE
+x y z
+ if(x > y)
+	swap x and y
+if(y > z)
+	swap y and z
+If (x < y)
+	swap x and y
+
+
+______________________________________________________________________________
+
+//MID TERM 
+
+//Create an algorithm to separate digits of a positive integer number and print the digits backward. 
+
+//INPUT
+
+A=7
+B=1
+C=8
+D=0
+E=2
+
+//PROCESS
+
+SWAP A AND E
+SWAP B AND D
+
+
+//OUTPUT
+
+E=2
+D=0
+C=8
+B=1
+A=7

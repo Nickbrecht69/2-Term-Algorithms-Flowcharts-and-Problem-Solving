@@ -1,0 +1,32 @@
+Part 6 - FACTORIAL NUMBER
+
+//INPUT
+
+SUM = 1				
+NUMBER = 5
+______________________________________________________________________________
+//PROCESS
+
+SUM * = NUMBER (just mult)
+NUMBER -= 1
+
+SUM    NUMBER
+1    *    5
+5    *    4
+20   *    3
+60   *    2
+120  *    1
+120  *    0
+
+______________________________________________________________________________
+//OUTPUT
+The total is 120
+______________________________________________________________________________
+//JAVASCRIPT
+
+let sum = 1;
+let number;
+for(number=5;number>0;number-=1){
+sum*=number;
+}
+alert(sum);

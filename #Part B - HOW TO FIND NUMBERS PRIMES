@@ -1,0 +1,214 @@
+//Algorithm Prime Number
+
+
+//EXEMPLE
+
+// IS 7 PRIME?
+
+//1STEP
+
+(WE HAVE TO TEST IT AGAINST 2,3,4,5,6)
+
+         7
+     *   2 3 4 5 6      
+ 
+(WE CAN EXCLUDE 1 AND 7)
+_____________________________________________________________________
+//2STEP
+
+//WE HAVE TO USE THE Remainder Calculator
+
+(USE THE MODULO OPERATOR (%) 
+("7%2" MEANS 7 divisible by 2)
+
+(7%2 = 3.5 or 3) (remainder 1)
+Therefore 7%2=1 
+
+x is divisible by y if there is!!!
+is no remainder x%y=0 
+
+//IF THE REMAINDER APPEAR 1 MEANS THAT THE NUMBER CAN`T DIVIDE 
+
+REMAINDER 0 (NOT PRIME) (Divisible)
+
+REMAINDER 1 (PRIME NUMBER) (Not Divisible)
+______________________________________________________________________________
+//PROCESS
+
+//3STEP (EXEMPLE PRIME NUMBER)          REMAINDER
+
+                                    
+         7
+     *   2 3 4 5 6                        7%2=1 
+         x x x x x  (Not Divisible)       7%3=1
+                                          7%4=1
+7 is prime!                               7%5=1
+                                          7%6=1
+
+PS: YOU DON`T NEED TO CHECK ALL IF THE FIRST NUMBER CAN`T DIVIDE 
+THE NUMBER IS PRIME !
+
+(EXEMPLE NON-PRIME NUMBER)              REMAINDER
+
+         8
+     *   2 3 4 5 6                        8%2=0 
+                    (Divisible)           8%3=0
+                                          8%4=0
+8 non-prime!                              8%5=0
+                                          8%6=0
+
+______________________________________________________________________________
+
+//HOW TO DISCOVER WITH BIG NUMBERS IS PRIME OR NOT!
+
+1STEP 
+(YOU NEED TO DIVIDE THE NUMBER BY NUMBER PRIMES)
+
+INPUT NUMBER;          11011     
+PRIMES:                2 3 5 7
+DIVISIBLE?             x x x     
+
+
+//This number is divisible by 7 so you have to get the result and does the same process
+______________________________________________________________________________
+//ALL SENTENCE
+
+INPUT NUMBER;          11011       
+PRIMES:                2 3 5 7  =1573
+DIVISIBLE?;            x x x     
+
+
+                       1573
+                       2 3 5 7 11 =143
+                       x x x x
+
+              
+                       143
+                       2 3 5 7 11 =13
+                       x x x x
+
+
+                       13
+                       2 3 5 7 11 13 =1
+                       x x x x x  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//INPUT
+Number;
+Divisor;
+Remainder;
+
+______________________________________________________________________________
+//PROCESS
+
+                                   
+         7
+     *   2 3 4 5 6                        7%2=1 
+         x x x x x  (Not Divisible)       7%3=1
+                                          7%4=1
+7 is prime!                               7%5=1
+                                          7%6=1
+
+
+
+
+         8
+     *   2 3 4 5 6                        8%2=0 
+                    (Divisible)           8%3=0
+                                          8%4=0
+8 non-prime!                              8%5=0
+                                          8%6=0
+
+
+//BIG NUMBERS
+
+
+INPUT NUMBER;          11011       
+PRIMES:                2 3 5 7  =1573
+DIVISIBLE?;            x x x     
+
+
+                       1573
+                       2 3 5 7 11 =143
+                       x x x x
+
+              
+                       143
+                       2 3 5 7 11 =13
+                       x x x x
+
+
+                       13
+                       2 3 5 7 11 13 =1
+                       x x x x x  
+
+______________________________________________________________________________
+//NUMBERS PRIMES 1 TO 100
+
+  2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 
+73, 79, 83, 89, and 97.
+
+
+
+
+
+
+
+
+
+
+
+
+
+END.....
+
+______________________________________________________________________________
+
+//MID TERM 
+
+//Create an algorithm to separate digits of a positive integer number and print the digits backward. 
+
+//INPUT
+
+A=7
+B=1
+C=8
+D=0
+E=2
+
+//PROCESS
+
+SWAP A AND E
+SWAP B AND D
+
+
+//OUTPUT
+
+E=2
+D=0
+C=8
+B=1
+A=7
+
+
+
+
+
+
+

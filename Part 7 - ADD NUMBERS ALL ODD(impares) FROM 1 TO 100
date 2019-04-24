@@ -1,32 +1,44 @@
-Part 6 - FACTORIAL NUMBER
+Part 7 - ADD NUMBERS ALL ODD(impares) FROM 1 TO 100
 
-//INPUT
+//INPUT 
 
-SUM = 1				
-NUMBER = 5
+Number;
+Sum;
 ______________________________________________________________________________
-//PROCESS
+//PROCESS   (i= NUMBER)
 
-SUM * = NUMBER (just mult)
-NUMBER -= 1
-
-SUM    NUMBER
-1    *    5
-5    *    4
-20   *    3
-60   *    2
-120  *    1
-120  *    0
+For (i=1 ; i <100 ; i +=2);
+Sum += i;                      (WITH i)
+-                                                 (same means i=Number)
+-                                             
+For (N=1 ; N <100 ; N +=2);
+Sum += N;                      (WITH N)
 
 ______________________________________________________________________________
 //OUTPUT
-The total is 120
-______________________________________________________________________________
-//JAVASCRIPT
 
-let sum = 1;
-let number;
-for(number=5;number>0;number-=1){
-sum*=number;
+PRINT SUM
+
+______________________________________________________________________________
+//JAVASCRIPT CODE 
+
+var number;
+var sum = 0;
+for(number =1;number<100; number+=2)
+{sum+=number;
+console.log(number);
 }
 alert(sum);
+
+______________________________________________________________________________
+
+//ERROR CHECK
+
+NUMBER	SUM
+I=1	     1
+I=3	     4         (2by2) ODD (STARTED FROM 1 TO CHECK BY CONSOLE)
+I=5	     9
+I=7	     16                    
+	
+I=99	2500
+(I=101	stop)

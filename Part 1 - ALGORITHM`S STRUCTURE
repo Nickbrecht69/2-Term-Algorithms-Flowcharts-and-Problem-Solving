@@ -1,0 +1,216 @@
+ALGORITHM`S STRUCTURE
+
+//INPUT 
+
+i= Interations  <----- = (NUMBER)
+
+let (i); "interations"
+NUMBER;
+SUM;
+______________________________________________________________________________
+//PROCESS OF ADD NUMBERS FROM 11 TO 23 
+
+FOR(Number = 11; Number < 23; Number ++ 
+      COND1        COND2             
+
+SUM + = Number    
+-
+-
+-
+-
+-  
+- (it`s just one exemple how to organize the structure)
+- (because it depends on the type of "PROCESS" you are doing isn`t the same)
+-
+-
+-
+-
+-
+______________________________________________________________________________
+ //OUTPUT
+
+PRINT (SUM)
+
+SUM= 198
+______________________________________________________________________________
+//JAVASCRIPT CODE 
+
+var number;
+var sum = 0;
+for(number=11;number<23;number++){
+sum+=number;
+console.log(number);
+}
+alert("Sum is " + sum);
+-
+-
+-
+-
+-
+- (it`s just one exemple how to organize the structure)
+- (because it depends on the type of "CODE" you are doing isn`t the same)
+-
+-
+-
+-
+-
+-
+______________________________________________________________________________
+
+//STRING "ABCDEFG" (WORDS)
+-
+-
+-
+-
+______________________________________________________________________________
+
+//let (i); "interations"
+-
+-
+-
+-
+______________________________________________________________________________
+
+//if R is = 0 means = ! affirmation
+//if R is == 0 means = ? question
+
+-
+-
+-
+-
+-
+______________________________________________________________________________
+"JAVA SCRIPT"
+
+(var r = 0;)
+-
+-
+-
+-                              "dont take an umbrella"
+var r = 0;
+if(r==0){
+alert("Dont take an umbrella");
+} else{
+alert("take an umbrella")
+}
+______________________________________________________________________________
+
+(var r = 1;)  
+-
+-
+-
+-                               "take an umbrella"
+var r = 1;
+if(r==1){
+alert("take an umbrella");
+} else{
+alert("Dont take an umbrella")
+}
+-
+-
+-
+-
+-
+-
+-
+-
+______________________________________________________________________________
+LET vs VAR
+
+LET= LOCAL 
+Just for u to working in local
+______________________________________________________________________________
+
+VAR= GLOBAL
+
+it`s Global anyone can access your code it stays open
+
+-
+-
+-
+-
+-
+-
+-
+
+______________________________________________________________________________
+
+//ADD NUMBERS ALL ODD(impares in pt-br) FROM 1 TO 100
+
+//INPUT 
+
+Number = 2;
+Sum = 0;
+______________________________________________________________________________
+//PROCESS   (i= NUMBER)
+
+For (i=2 ; i <=100 ; i +=2);
+Sum += i;                      (WITH i)
+-
+-                                         (same means i=Number)
+For (N=2 ; N <=100 ; N +=2);
+Sum += N;                      (WITH N)  
+
+______________________________________________________________________________
+OUTPUT
+
+PRINT SUM
+
+______________________________________________________________________________
+//JAVASCRIPT CODE 
+
+var number;
+var sum = 0;
+for(number =1;number<100; number+=2)
+{sum+=number;
+console.log(number);
+}
+alert(sum);
+
+- 
+-
+-
+-
+-
+-
+-
+-
+-
+______________________________________________________________________________
+
+//ADD NUMBERS ALL EVEN(pares in pt-br) FROM 1 TO 100
+
+
+//INPUT
+
+Number = 0;
+Sum=0;
+______________________________________________________________________________
+//PROCESS
+
+For (i=0; i <=101; i +=2);
+Sum += i;                        (WITH i) 
+-
+-                                          (same means i=Number)
+For (N=0; N <=101; N +=2);       (WITH N)
+Sum += N;
+-
+-
+-
+-     
+______________________________________________________________________________
+//OUTPUT
+
+PRINT SUM
+
+
+______________________________________________________________________________
+//JAVASCRIPT CODE 
+
+var number;
+var sum = 0;
+for(number =0;number<101; number+=2){
+sum+=number;
+console.log(number);
+}
+alert(sum);

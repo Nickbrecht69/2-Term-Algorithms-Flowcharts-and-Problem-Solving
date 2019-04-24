@@ -1,0 +1,112 @@
+Algorithms, Flowcharts and problem solving
+Mid Term Exam
+
+1.	Create an algorithm to separate digits of a positive integer number and print the digits backward. 
+Example:
+Input 71802
+Output 20817
+
+2.	Create an algorithm that find the smallest coefficient of 7 where the remainder of its division to 2, 3, 4, 5, and 6 is 1.
+Hint: when you divide this number to 2, 3, 4, 5, 6 respectively the remainder of it should be 1.
+
+
+3.	Create an algorithm to get the length for a base edge and a height of a hexagonal prism and calculate the total area of the hexagonal prism.
+
+4.	Create an algorithm to convert a binary number to a decimal number 
+
+
+Each question has 25 marks
+
+1 -
+Input
+A N D R E; (It’s a number not my teacher’s name  )
+Process
+Swap A and E;
+Swap N and R;
+Output
+Print ANDRE; <<<<<<(based on Position)
+Input: ANDRE >>>>>>>>Output : ERDNA (based on digit)
+Or
+Input:
+VAR number;
+VAR reverse = 0;
+VAR lastDigit;
+Process:
+While (number > 0){
+	lastDigit = number % 10;
+	reverse = (reverse * 10) + lastDigit;
+	number= number/10
+}
+Output:
+Print reverse
+//Error check:
+Number = 71802
+Reverse=0
+1)	lastDigit = 71802 % 10 = 2
+reverse = (0*10) +2 =2
+number 71802 / 10 = 7180
+2)	lastDigit = 7080 % 10  = 0
+reverse = (2 * 10 )+0 = 20
+number= 7180 / 10 = 718
+3)	lastDigit = 718 % 10 = 8
+reverse = (20*10) + 8 =208
+number = 718 /10 =71
+4)	lastDigit = 71 % 10 = 1
+reverse = (208*10)+1= 2081
+number = 71/10= 7
+5)	lastDigit= 7%10 =0
+reverse = (2081*10)+7 = 20817
+number = 7/10 = 0
+output = 20817
+2 – 
+
+Input
+number = 14; (The first Coefficient of 7 after 7 )
+divisor = 2;
+Process
+remainder = number % divisor
+If ( remainder = 1)
+	divisor +=1
+	if (divisor = 7)
+	   (Output) >>  print “number” <<< (The smallest coefficient of 7 where the remainder of its division to 2, 3, 4, 5, and 6 is 1) 
+	else
+               process again
+Else
+number+=7 , divisor = 2 , Process again
+
+
+
+
+
+
+3 – 
+	Input
+       a;  (length of base edge)
+	       h;  (height)
+	       Area=?
+	Process  
+	       Area = ( 6 * a * h ) + (( 3 ^ 1.5 )* (a ^ 2)) ;
+	
+	Output
+		Print Area;
+
+
+
+4 –
+Input
+A … X Y Z ; (Binary)
+N; (Number of digits)
+Decimal = ?
+Process
+Decimal = Z * (2^0) + Y * (2^1) + X * (2^2) + … + A * (2^(N-1));
+Output
+Print Decimal;
+
+
+
+
+
+
+
+ 
+

@@ -178,35 +178,6 @@ ______________________________________________________________________________
 
 END.....
 
-______________________________________________________________________________
-
-//MID TERM 
-
-//Create an algorithm to separate digits of a positive integer number and print the digits backward. 
-
-//INPUT
-
-A=7
-B=1
-C=8
-D=0
-E=2
-
-//PROCESS
-
-SWAP A AND E
-SWAP B AND D
-
-
-//OUTPUT
-
-E=2
-D=0
-C=8
-B=1
-A=7
-
-
 
 
 
